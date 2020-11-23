@@ -5,6 +5,7 @@ This repository contains a collection of [Homebrew](http://mxcl.github.com/homeb
 ## List
 
 * [marco](https://github.com/kekeniker/marco): Marco is a CLI tool for showing Spinnaker application, pipelines and pipeline templates
+    * Install: `brew install kekeniker/tap/marco`
 
 ## Usage
 
@@ -17,5 +18,5 @@ $ brew tap kekeniker/tap
 Next, draft from the tap:
 
 ```
-brew install kekeniker/tap/marco
+brew install kekeniker/tap/{name}
 ```
