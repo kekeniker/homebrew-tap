@@ -2,16 +2,16 @@
 class Marco < Formula
   desc "Marco is a CLI tool for showing Spinnaker application, pipelines and pipeline templates"
   homepage "https://github.com/kekeniker/marco"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "http://github.mycompany.com/foo/bar/releases/v0.0.1/marco_0.0.1_darwin_amd64.tar.gz", :using => CurlDownloadStrategy.
-    sha256 "2bf9a39631d995f1117fc62cad1dee5629660fbee0d5034fb55dba4ef8746b49"
+    url "http://github.com/kekeniker/marco/releases/v0.0.2/marco_0.0.2_darwin_amd64.tar.gz", :using => CurlDownloadStrategy.
+    sha256 "6483e63e71097f39176bb64541d69a1de17f352a72f24c14d25ca87c91f00c7e"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "http://github.mycompany.com/foo/bar/releases/v0.0.1/marco_0.0.1_linux_amd64.tar.gz", :using => CurlDownloadStrategy.
-    sha256 "7b2a41f356ba3bca229138c482c543566eeea0c4f2c078f931758df607ebffda"
+    url "http://github.com/kekeniker/marco/releases/v0.0.2/marco_0.0.2_linux_amd64.tar.gz", :using => CurlDownloadStrategy.
+    sha256 "2d1f739866a85eede8ddb408c5d26b01ba25be82b3bf930184aafc73921b0827"
   end
 
   def install
