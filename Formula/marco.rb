@@ -2,16 +2,16 @@
 class Marco < Formula
   desc "Marco is a CLI tool for showing Spinnaker application, pipelines and pipeline templates"
   homepage "https://github.com/kekeniker/marco"
-  version "0.0.4"
+  version "0.0.5"
   bottle :unneeded
 
   if OS.mac?
-    url "http://github.com/kekeniker/marco/releases/downloads/v0.0.4/marco_0.0.4_darwin_amd64.tar.gz"
-    sha256 "47b4137abfedb635a88af19a425ea40d4acc0e2328f2ad19abe945a2ead39693"
+    url "https://github.com/kekeniker/marco/releases/download/v0.0.5/marco_0.0.5_darwin_amd64.tar.gz"
+    sha256 "a5b7946c8d6698c7a3f83b0c03cbfd22c0e834d708fecedd3031c62f4bbd37d7"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "http://github.com/kekeniker/marco/releases/downloads/v0.0.4/marco_0.0.4_linux_amd64.tar.gz"
-    sha256 "6bca993152eb6d468b409f916fe8bd7de89bb32b610bd5907b2fcad5d530c154"
+    url "https://github.com/kekeniker/marco/releases/download/v0.0.5/marco_0.0.5_linux_amd64.tar.gz"
+    sha256 "764db95d8e1c6ff2145a56d2c94cfe7a76c2d81c1e587761b482f446fdaa3c3c"
   end
 
   def install
