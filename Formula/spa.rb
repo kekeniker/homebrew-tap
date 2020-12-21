@@ -2,16 +2,16 @@
 class Spa < Formula
   desc "Spinnaker Admin tools"
   homepage "https://github.com/kekeniker/spa"
-  version "0.0.5"
+  version "0.0.6"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kekeniker/spa/releases/download/v0.0.5/spa_0.0.5_darwin_amd64.tar.gz"
-    sha256 "a7c8479fa66ee29dc195956fbe6bc4d91b2c745a4cb619fb6d90b9d534c249bb"
+    url "https://github.com/kekeniker/spa/releases/download/v0.0.6/spa_0.0.6_darwin_amd64.tar.gz"
+    sha256 "0d5bb5cbfb336948909522d0f0fc649d1e5c1c010f53985710b9e56cbcb96a54"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/kekeniker/spa/releases/download/v0.0.5/spa_0.0.5_linux_amd64.tar.gz"
-    sha256 "a479d62d5c4d13a4d03c00bea501efdccf614b3bac85d973b5a0cca1757768c6"
+    url "https://github.com/kekeniker/spa/releases/download/v0.0.6/spa_0.0.6_linux_amd64.tar.gz"
+    sha256 "a5d8b2e96f3e81950e1706f18318a497fe2b370fe6739522c3b2a0f5909a1677"
   end
 
   def install
